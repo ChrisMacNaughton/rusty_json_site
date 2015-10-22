@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     daemons (1.2.3)
+    erubis (2.7.0)
     eventmachine (1.0.8)
     json (1.8.3)
     rack (1.6.4)
@@ -23,6 +24,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  erubis
   rusty_json
   sinatra
   thin
