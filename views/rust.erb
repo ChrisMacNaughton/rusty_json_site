@@ -18,9 +18,6 @@
   </div>
 </div>
 <script>
-  mixpanel.track_links("a", "click link", {
-    "referrer": document.referrer
-  });
   mixpanel.track('got rust', {
     "json": <%=  params[:json] %>,
     "rust": "<%= @rusty.gsub("\n", '\n') %>",
