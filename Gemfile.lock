@@ -16,7 +16,7 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
-    rusty_json (1.2.3)
+    rusty_json (1.2.4)
       activesupport
       json
     sinatra (1.4.6)
